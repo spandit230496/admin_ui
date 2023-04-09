@@ -1,0 +1,91 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+.head{
+    background-color: black;
+    color: aqua;
+}
+.search{
+    width: 100vw;
+    height: 2rem;
+}
+.danger{
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    border-radius: 1rem;
+}
+.edit{
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+    border-radius: 1rem;
+}
+.tbl{
+    margin-top: 1rem;
+}
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .footer{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+  }
+  .footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+  }
+  .pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .editScreen{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+   margin-top: -500px;
+   margin-left: 500px;
+   display: none;
+  }
+  .editScreen-vis{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 150px;
+   margin-top: -500px;
+   margin-left: 500px;
+   display:block;
+   padding:5rem;
+  }
+  .editScreen form{
+    
+    display: flex;
+    flex-direction: column;
+    
+
+  }
+  .editScreen form input{
+    
+    margin-bottom: 2rem;
+  }
+  .editScreen form select{
+    
+    width: 10rem;
+  }
+
